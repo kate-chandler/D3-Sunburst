@@ -1,0 +1,51 @@
+body {
+  font-family: "Ariel", Times, serif;
+}
+
+div#legend {
+  /* float:left; */
+  display: inline-block;
+  /* width: auto;
+  height: auto; */
+}
+
+div#chart {
+  /* float:right; */
+  /* width: auto;
+  height: auto; */
+  display: inline-block;
+}
+div#radio {
+  display: inline;
+}
+
+div#parent {
+  display: flex;
+  width: 700px;
+  /* flex-flow: row-reverse; */
+  flex-flow: row nowrap;
+  /* margin-right: auto; */
+  /* padding-left: 30px; */
+}
+div#txt-Name{
+  background-color: black;
+}
+
+
+
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  width: 100px;
+  height: auto;
+  padding: 3px;
+  padding-right: 100px;
+  font-size: 20px;
+  font-family: "Consolas";
+  color:white;
+  border: 0px;
+  border-radius: 3px;
+  pointer-events: none;
+  background: #333333;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}

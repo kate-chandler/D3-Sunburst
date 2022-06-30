@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chartset="utf-8">
+        <title>Files</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="d3.v4.js"></script>
+
+    </head>
+    <body>
+      <div id="parent">
+      <!-- <textarea id="txtName" name="txt-Name" placeholder="Search for something.."></textarea>  <button>Try it</button> -->
+      <div id="txtName">
+        <input aria-label="Search" autocomplete="on" id="searchInput" name="search-input" placeholder="Search for records" speech type="search">
+      </div>
+      <div id ="radio"><form id="form">
+          <input type="radio" name="stack" value="Category">Type Of Record<br>
+          <input type="radio" name="stack" value="Owner" >Owner<br>
+          <input type="radio" name="stack" value="Dup">Duplicate<br>
+          <input type="radio" name="stack" value="Passed">Newer than 7 years <br>
+          <input type="radio" name="stack" value="YearRange">Year Range <br>
+          <input type="radio" name="stack" value="Year">Year <br>
+      </form></div>
+    </div>
+      <div id="parent">
+      <div id="legend"></div>
+      <div id="chart"></div>
+      <div id="textbox"></div>
+      <div class="dropdown">
+          <select id="selectButton"></select>
+          </div>
+      </div>
+
+
+      <script type="text/javascript" src="dup.js"></script>
+          <!-- <div id="legend"></div> -->
+
+
+
+    </body>
+</html>
